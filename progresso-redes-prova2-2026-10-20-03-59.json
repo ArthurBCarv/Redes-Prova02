@@ -1,0 +1,863 @@
+{
+ "app": "redes-prova2",
+ "version": 1,
+ "createdAt": 1792464977849,
+ "updatedAt": 1792468789326,
+ "settings": {
+  "theme": "auto",
+  "mode": "complete",
+  "totalMinutes": 600,
+  "blockMinutes": 50,
+  "breakMinutes": 10,
+  "weights": {
+   "importance": 0.4,
+   "gap": 0.3,
+   "prereq": 0.2,
+   "urgency": 0.1
+  },
+  "importance": {},
+  "reserveExamMinutes": 50,
+  "reserveFinalMinutes": 50,
+  "examTimer": true,
+  "gateThreshold": 0.45
+ },
+ "schedule": {
+  "startedAt": null,
+  "blocks": [
+   {
+    "id": "b1",
+    "n": 1,
+    "title": "Diagnóstico + IPv4 básico",
+    "goal": "Entender IP, bits, rede e host",
+    "topics": [
+     "ipv4"
+    ],
+    "kind": "study",
+    "minutes": 50,
+    "status": "todo",
+    "doneAt": null
+   },
+   {
+    "id": "b2",
+    "n": 2,
+    "title": "Máscaras e CIDR",
+    "goal": "Calcular rede, hosts e broadcast",
+    "topics": [
+     "mascara",
+     "cidr"
+    ],
+    "kind": "study",
+    "minutes": 50,
+    "status": "todo",
+    "doneAt": null
+   },
+   {
+    "id": "b3",
+    "n": 3,
+    "title": "VLSM básico",
+    "goal": "Entender blocos e máscaras",
+    "topics": [
+     "cidr",
+     "vlsm"
+    ],
+    "kind": "study",
+    "minutes": 50,
+    "status": "todo",
+    "doneAt": null
+   },
+   {
+    "id": "b4",
+    "n": 4,
+    "title": "VLSM aplicado",
+    "goal": "Resolver os exercícios do professor",
+    "topics": [
+     "vlsm",
+     "sumarizacao"
+    ],
+    "kind": "study",
+    "minutes": 50,
+    "status": "todo",
+    "doneAt": null
+   },
+   {
+    "id": "b5",
+    "n": 5,
+    "title": "IPv6 + revisão",
+    "goal": "Compreender IPv6 e revisar IPv4",
+    "topics": [
+     "ipv6",
+     "mascara"
+    ],
+    "kind": "study",
+    "minutes": 50,
+    "status": "todo",
+    "doneAt": null
+   },
+   {
+    "id": "b6",
+    "n": 6,
+    "title": "Comutação, MAC e STP",
+    "goal": "Entender o comportamento dos switches",
+    "topics": [
+     "comutacao",
+     "mac",
+     "stp"
+    ],
+    "kind": "study",
+    "minutes": 50,
+    "status": "todo",
+    "doneAt": null
+   },
+   {
+    "id": "b7",
+    "n": 7,
+    "title": "VLANs e Trunk",
+    "goal": "Entender segmentação e 802.1Q",
+    "topics": [
+     "vlan",
+     "trunk"
+    ],
+    "kind": "study",
+    "minutes": 50,
+    "status": "todo",
+    "doneAt": null
+   },
+   {
+    "id": "b8",
+    "n": 8,
+    "title": "Inter-VLAN e Cisco IOS",
+    "goal": "Interpretar e configurar redes",
+    "topics": [
+     "intervlan",
+     "ios"
+    ],
+    "kind": "study",
+    "minutes": 50,
+    "status": "todo",
+    "doneAt": null
+   },
+   {
+    "id": "b9",
+    "n": 9,
+    "title": "Simulado misto",
+    "goal": "Avaliar conhecimento independente",
+    "topics": [],
+    "kind": "exam",
+    "minutes": 50,
+    "status": "todo",
+    "doneAt": null
+   },
+   {
+    "id": "b10",
+    "n": 10,
+    "title": "Revisão direcionada",
+    "goal": "Corrigir lacunas e consolidar",
+    "topics": [],
+    "kind": "final",
+    "minutes": 50,
+    "status": "todo",
+    "doneAt": null
+   }
+  ],
+  "replans": 0
+ },
+ "topics": {
+  "ipv4": {
+   "topicId": "ipv4",
+   "status": "learning",
+   "attempts": 4,
+   "independentCorrect": 1,
+   "assistedCorrect": 0,
+   "incorrect": 3,
+   "unknown": 0,
+   "recentPerformance": [
+    {
+     "v": 0,
+     "result": "incorrect",
+     "kind": "diagnostico",
+     "sig": "diag-d1",
+     "at": 1792465125147
+    },
+    {
+     "v": 0,
+     "result": "incorrect",
+     "kind": "diagnostico",
+     "sig": "diag-d2",
+     "at": 1792465125147
+    },
+    {
+     "v": 0,
+     "result": "incorrect",
+     "kind": "guided",
+     "sig": "guided:Agora você: <code>172.16.10.10</code> com máscara padrão",
+     "at": 1792467267161
+    },
+    {
+     "v": 1,
+     "result": "independent",
+     "kind": "binary",
+     "sig": "binary:168:true",
+     "at": 1792468140440
+    }
+   ],
+   "prerequisiteTopics": [],
+   "lastReviewedAt": 1792468140440,
+   "estimatedStudyMinutes": 0,
+   "actualStudyMinutes": 35,
+   "masteryScore": 0.25,
+   "nextReviewAt": 1792471740440,
+   "vlsmProblems": [],
+   "labConfigs": 0,
+   "diagnostic": "incorrect"
+  },
+  "mascara": {
+   "topicId": "mascara",
+   "status": "practicing",
+   "attempts": 1,
+   "independentCorrect": 1,
+   "assistedCorrect": 0,
+   "incorrect": 0,
+   "unknown": 0,
+   "recentPerformance": [
+    {
+     "v": 1,
+     "result": "independent",
+     "kind": "diagnostico",
+     "sig": "diag-d3",
+     "at": 1792465125147
+    }
+   ],
+   "prerequisiteTopics": [
+    "ipv4"
+   ],
+   "lastReviewedAt": 1792465125147,
+   "estimatedStudyMinutes": 0,
+   "actualStudyMinutes": 0,
+   "masteryScore": 0.55,
+   "nextReviewAt": 1792468725147,
+   "vlsmProblems": [],
+   "labConfigs": 0,
+   "diagnostic": "independent"
+  },
+  "cidr": {
+   "topicId": "cidr",
+   "status": "practicing",
+   "attempts": 1,
+   "independentCorrect": 1,
+   "assistedCorrect": 0,
+   "incorrect": 0,
+   "unknown": 0,
+   "recentPerformance": [
+    {
+     "v": 1,
+     "result": "independent",
+     "kind": "diagnostico",
+     "sig": "diag-d4",
+     "at": 1792465125147
+    }
+   ],
+   "prerequisiteTopics": [
+    "mascara"
+   ],
+   "lastReviewedAt": 1792465125147,
+   "estimatedStudyMinutes": 0,
+   "actualStudyMinutes": 0,
+   "masteryScore": 0.55,
+   "nextReviewAt": 1792468725147,
+   "vlsmProblems": [],
+   "labConfigs": 0,
+   "diagnostic": "independent"
+  },
+  "vlsm": {
+   "topicId": "vlsm",
+   "status": "learning",
+   "attempts": 1,
+   "independentCorrect": 0,
+   "assistedCorrect": 0,
+   "incorrect": 0,
+   "unknown": 1,
+   "recentPerformance": [
+    {
+     "v": 0,
+     "result": "unknown",
+     "kind": "diagnostico",
+     "sig": "diag-d5",
+     "at": 1792465125147
+    }
+   ],
+   "prerequisiteTopics": [
+    "cidr"
+   ],
+   "lastReviewedAt": 1792465125147,
+   "estimatedStudyMinutes": 0,
+   "actualStudyMinutes": 0,
+   "masteryScore": 0.15,
+   "nextReviewAt": 1792465725147,
+   "vlsmProblems": [],
+   "labConfigs": 0,
+   "diagnostic": "unknown"
+  },
+  "sumarizacao": {
+   "topicId": "sumarizacao",
+   "status": "new",
+   "attempts": 0,
+   "independentCorrect": 0,
+   "assistedCorrect": 0,
+   "incorrect": 0,
+   "unknown": 0,
+   "recentPerformance": [],
+   "prerequisiteTopics": [
+    "cidr"
+   ],
+   "lastReviewedAt": null,
+   "estimatedStudyMinutes": 0,
+   "actualStudyMinutes": 0,
+   "masteryScore": 0,
+   "nextReviewAt": null,
+   "vlsmProblems": [],
+   "labConfigs": 0,
+   "diagnostic": null
+  },
+  "ipv6": {
+   "topicId": "ipv6",
+   "status": "learning",
+   "attempts": 1,
+   "independentCorrect": 0,
+   "assistedCorrect": 0,
+   "incorrect": 1,
+   "unknown": 0,
+   "recentPerformance": [
+    {
+     "v": 0,
+     "result": "incorrect",
+     "kind": "diagnostico",
+     "sig": "diag-d6",
+     "at": 1792465125147
+    }
+   ],
+   "prerequisiteTopics": [
+    "ipv4"
+   ],
+   "lastReviewedAt": 1792465125147,
+   "estimatedStudyMinutes": 0,
+   "actualStudyMinutes": 0,
+   "masteryScore": 0.15,
+   "nextReviewAt": 1792465725147,
+   "vlsmProblems": [],
+   "labConfigs": 0,
+   "diagnostic": "incorrect"
+  },
+  "comutacao": {
+   "topicId": "comutacao",
+   "status": "practicing",
+   "attempts": 1,
+   "independentCorrect": 1,
+   "assistedCorrect": 0,
+   "incorrect": 0,
+   "unknown": 0,
+   "recentPerformance": [
+    {
+     "v": 1,
+     "result": "independent",
+     "kind": "diagnostico",
+     "sig": "diag-d7",
+     "at": 1792465125147
+    }
+   ],
+   "prerequisiteTopics": [],
+   "lastReviewedAt": 1792465125147,
+   "estimatedStudyMinutes": 0,
+   "actualStudyMinutes": 0,
+   "masteryScore": 0.55,
+   "nextReviewAt": 1792468725147,
+   "vlsmProblems": [],
+   "labConfigs": 0,
+   "diagnostic": "independent"
+  },
+  "mac": {
+   "topicId": "mac",
+   "status": "learning",
+   "attempts": 1,
+   "independentCorrect": 0,
+   "assistedCorrect": 0,
+   "incorrect": 1,
+   "unknown": 0,
+   "recentPerformance": [
+    {
+     "v": 0,
+     "result": "incorrect",
+     "kind": "diagnostico",
+     "sig": "diag-d8",
+     "at": 1792465125147
+    }
+   ],
+   "prerequisiteTopics": [
+    "comutacao"
+   ],
+   "lastReviewedAt": 1792465125147,
+   "estimatedStudyMinutes": 0,
+   "actualStudyMinutes": 0,
+   "masteryScore": 0.15,
+   "nextReviewAt": 1792465725147,
+   "vlsmProblems": [],
+   "labConfigs": 0,
+   "diagnostic": "incorrect"
+  },
+  "stp": {
+   "topicId": "stp",
+   "status": "learning",
+   "attempts": 1,
+   "independentCorrect": 0,
+   "assistedCorrect": 0,
+   "incorrect": 0,
+   "unknown": 1,
+   "recentPerformance": [
+    {
+     "v": 0,
+     "result": "unknown",
+     "kind": "diagnostico",
+     "sig": "diag-d9",
+     "at": 1792465125147
+    }
+   ],
+   "prerequisiteTopics": [
+    "mac"
+   ],
+   "lastReviewedAt": 1792465125147,
+   "estimatedStudyMinutes": 0,
+   "actualStudyMinutes": 0,
+   "masteryScore": 0.15,
+   "nextReviewAt": 1792465725147,
+   "vlsmProblems": [],
+   "labConfigs": 0,
+   "diagnostic": "unknown"
+  },
+  "vlan": {
+   "topicId": "vlan",
+   "status": "learning",
+   "attempts": 1,
+   "independentCorrect": 0,
+   "assistedCorrect": 0,
+   "incorrect": 0,
+   "unknown": 1,
+   "recentPerformance": [
+    {
+     "v": 0,
+     "result": "unknown",
+     "kind": "diagnostico",
+     "sig": "diag-d10",
+     "at": 1792465125147
+    }
+   ],
+   "prerequisiteTopics": [
+    "mac"
+   ],
+   "lastReviewedAt": 1792465125147,
+   "estimatedStudyMinutes": 0,
+   "actualStudyMinutes": 0,
+   "masteryScore": 0.15,
+   "nextReviewAt": 1792465725147,
+   "vlsmProblems": [],
+   "labConfigs": 0,
+   "diagnostic": "unknown"
+  },
+  "trunk": {
+   "topicId": "trunk",
+   "status": "learning",
+   "attempts": 1,
+   "independentCorrect": 0,
+   "assistedCorrect": 0,
+   "incorrect": 0,
+   "unknown": 1,
+   "recentPerformance": [
+    {
+     "v": 0,
+     "result": "unknown",
+     "kind": "diagnostico",
+     "sig": "diag-d11",
+     "at": 1792465125147
+    }
+   ],
+   "prerequisiteTopics": [
+    "vlan"
+   ],
+   "lastReviewedAt": 1792465125147,
+   "estimatedStudyMinutes": 0,
+   "actualStudyMinutes": 0,
+   "masteryScore": 0.15,
+   "nextReviewAt": 1792465725147,
+   "vlsmProblems": [],
+   "labConfigs": 0,
+   "diagnostic": "unknown"
+  },
+  "intervlan": {
+   "topicId": "intervlan",
+   "status": "learning",
+   "attempts": 1,
+   "independentCorrect": 0,
+   "assistedCorrect": 0,
+   "incorrect": 0,
+   "unknown": 1,
+   "recentPerformance": [
+    {
+     "v": 0,
+     "result": "unknown",
+     "kind": "diagnostico",
+     "sig": "diag-d12",
+     "at": 1792465125147
+    }
+   ],
+   "prerequisiteTopics": [
+    "trunk",
+    "mascara"
+   ],
+   "lastReviewedAt": 1792465125147,
+   "estimatedStudyMinutes": 0,
+   "actualStudyMinutes": 0,
+   "masteryScore": 0.15,
+   "nextReviewAt": 1792465725147,
+   "vlsmProblems": [],
+   "labConfigs": 0,
+   "diagnostic": "unknown"
+  },
+  "ios": {
+   "topicId": "ios",
+   "status": "new",
+   "attempts": 0,
+   "independentCorrect": 0,
+   "assistedCorrect": 0,
+   "incorrect": 0,
+   "unknown": 0,
+   "recentPerformance": [],
+   "prerequisiteTopics": [
+    "vlan"
+   ],
+   "lastReviewedAt": null,
+   "estimatedStudyMinutes": 0,
+   "actualStudyMinutes": 0,
+   "masteryScore": 0,
+   "nextReviewAt": null,
+   "vlsmProblems": [],
+   "labConfigs": 0,
+   "diagnostic": null
+  }
+ },
+ "history": [
+  {
+   "qid": "diag-d1",
+   "sig": "diag-d1",
+   "topic": "ipv4",
+   "difficulty": "basico",
+   "kind": "diagnostico",
+   "result": "incorrect",
+   "hints": 0,
+   "attempts": 1,
+   "wrongTags": [],
+   "tagsAll": [],
+   "context": "diagnostic",
+   "diagnostic": true,
+   "at": 1792465125147
+  },
+  {
+   "qid": "diag-d2",
+   "sig": "diag-d2",
+   "topic": "ipv4",
+   "difficulty": "basico",
+   "kind": "diagnostico",
+   "result": "incorrect",
+   "hints": 0,
+   "attempts": 1,
+   "wrongTags": [],
+   "tagsAll": [],
+   "context": "diagnostic",
+   "diagnostic": true,
+   "at": 1792465125147
+  },
+  {
+   "qid": "diag-d3",
+   "sig": "diag-d3",
+   "topic": "mascara",
+   "difficulty": "basico",
+   "kind": "diagnostico",
+   "result": "independent",
+   "hints": 0,
+   "attempts": 1,
+   "wrongTags": [],
+   "tagsAll": [],
+   "context": "diagnostic",
+   "diagnostic": true,
+   "at": 1792465125147
+  },
+  {
+   "qid": "diag-d4",
+   "sig": "diag-d4",
+   "topic": "cidr",
+   "difficulty": "basico",
+   "kind": "diagnostico",
+   "result": "independent",
+   "hints": 0,
+   "attempts": 1,
+   "wrongTags": [],
+   "tagsAll": [],
+   "context": "diagnostic",
+   "diagnostic": true,
+   "at": 1792465125147
+  },
+  {
+   "qid": "diag-d5",
+   "sig": "diag-d5",
+   "topic": "vlsm",
+   "difficulty": "basico",
+   "kind": "diagnostico",
+   "result": "unknown",
+   "hints": 0,
+   "attempts": 1,
+   "wrongTags": [],
+   "tagsAll": [],
+   "context": "diagnostic",
+   "diagnostic": true,
+   "at": 1792465125147
+  },
+  {
+   "qid": "diag-d6",
+   "sig": "diag-d6",
+   "topic": "ipv6",
+   "difficulty": "basico",
+   "kind": "diagnostico",
+   "result": "incorrect",
+   "hints": 0,
+   "attempts": 1,
+   "wrongTags": [],
+   "tagsAll": [],
+   "context": "diagnostic",
+   "diagnostic": true,
+   "at": 1792465125147
+  },
+  {
+   "qid": "diag-d7",
+   "sig": "diag-d7",
+   "topic": "comutacao",
+   "difficulty": "basico",
+   "kind": "diagnostico",
+   "result": "independent",
+   "hints": 0,
+   "attempts": 1,
+   "wrongTags": [],
+   "tagsAll": [],
+   "context": "diagnostic",
+   "diagnostic": true,
+   "at": 1792465125147
+  },
+  {
+   "qid": "diag-d8",
+   "sig": "diag-d8",
+   "topic": "mac",
+   "difficulty": "basico",
+   "kind": "diagnostico",
+   "result": "incorrect",
+   "hints": 0,
+   "attempts": 1,
+   "wrongTags": [],
+   "tagsAll": [],
+   "context": "diagnostic",
+   "diagnostic": true,
+   "at": 1792465125147
+  },
+  {
+   "qid": "diag-d9",
+   "sig": "diag-d9",
+   "topic": "stp",
+   "difficulty": "basico",
+   "kind": "diagnostico",
+   "result": "unknown",
+   "hints": 0,
+   "attempts": 1,
+   "wrongTags": [],
+   "tagsAll": [],
+   "context": "diagnostic",
+   "diagnostic": true,
+   "at": 1792465125147
+  },
+  {
+   "qid": "diag-d10",
+   "sig": "diag-d10",
+   "topic": "vlan",
+   "difficulty": "basico",
+   "kind": "diagnostico",
+   "result": "unknown",
+   "hints": 0,
+   "attempts": 1,
+   "wrongTags": [],
+   "tagsAll": [],
+   "context": "diagnostic",
+   "diagnostic": true,
+   "at": 1792465125147
+  },
+  {
+   "qid": "diag-d11",
+   "sig": "diag-d11",
+   "topic": "trunk",
+   "difficulty": "basico",
+   "kind": "diagnostico",
+   "result": "unknown",
+   "hints": 0,
+   "attempts": 1,
+   "wrongTags": [],
+   "tagsAll": [],
+   "context": "diagnostic",
+   "diagnostic": true,
+   "at": 1792465125147
+  },
+  {
+   "qid": "diag-d12",
+   "sig": "diag-d12",
+   "topic": "intervlan",
+   "difficulty": "basico",
+   "kind": "diagnostico",
+   "result": "unknown",
+   "hints": 0,
+   "attempts": 1,
+   "wrongTags": [],
+   "tagsAll": [],
+   "context": "diagnostic",
+   "diagnostic": true,
+   "at": 1792465125147
+  },
+  {
+   "qid": "gen:binary:168:true",
+   "sig": "binary:168:true",
+   "topic": "ipv4",
+   "difficulty": "basico",
+   "kind": "binary",
+   "result": "independent",
+   "hints": 0,
+   "attempts": 1,
+   "ms": 2978273,
+   "wrongTags": [],
+   "tagsAll": [
+    "binario"
+   ],
+   "source": "gen",
+   "fullVlsm": false,
+   "context": "module",
+   "diagnostic": false,
+   "at": 1792468140440
+  }
+ ],
+ "solved": {
+  "diag-d1": {
+   "result": "incorrect",
+   "at": 1792465125147
+  },
+  "diag-d2": {
+   "result": "incorrect",
+   "at": 1792465125147
+  },
+  "diag-d3": {
+   "result": "independent",
+   "at": 1792465125147
+  },
+  "diag-d4": {
+   "result": "independent",
+   "at": 1792465125147
+  },
+  "diag-d6": {
+   "result": "incorrect",
+   "at": 1792465125147
+  },
+  "diag-d7": {
+   "result": "independent",
+   "at": 1792465125147
+  },
+  "diag-d8": {
+   "result": "incorrect",
+   "at": 1792465125147
+  },
+  "binary:168:true": {
+   "result": "independent",
+   "at": 1792468140440
+  }
+ },
+ "diagnostic": {
+  "done": true,
+  "answers": {
+   "diag-d1": 3,
+   "diag-d2": 0,
+   "diag-d3": 1,
+   "diag-d4": 1,
+   "diag-d5": 4,
+   "diag-d6": 2,
+   "diag-d7": 1,
+   "diag-d8": 0,
+   "diag-d9": 4,
+   "diag-d10": 4,
+   "diag-d11": 4,
+   "diag-d12": 4
+  },
+  "at": 1792465125147
+ },
+ "flash": {
+  "cards": {},
+  "lastId": "fc-ipv4-1",
+  "filter": "all"
+ },
+ "exams": [],
+ "examDraft": null,
+ "study": {
+  "activeMs": 2565000,
+  "byTopic": {
+   "ipv4": 2070000
+  },
+  "byArea": {
+   "config": 30000,
+   "diagnostico": 120000,
+   "inicio": 15000,
+   "aprender": 2070000,
+   "laboratorio": 240000,
+   "fracos": 15000,
+   "revisao": 15000,
+   "praticar": 15000,
+   "plano": 45000
+  },
+  "saibaMaisMs": 2830000
+ },
+ "lab": {
+  "scenario": "lab346",
+  "states": {}
+ },
+ "weak": {
+  "marked": {}
+ },
+ "saibaMais": {
+  "opened": {
+   "classful": 3,
+   "ipv4-rede-broadcast": 2
+  }
+ },
+ "recHistory": [],
+ "lastRoute": "#/config",
+ "lessons": {
+  "ipv4": {
+   "seen": {
+    "objetivo": 1792465156556,
+    "intuicao": 1792465156556,
+    "tecnica": 1792465162849,
+    "visual": 1792465237430,
+    "exemplo": 1792465420712,
+    "guiada": 1792465476744,
+    "pratica": 1792465702036,
+    "erros": 1792465829391,
+    "verificacao": 1792468425522
+   }
+  },
+  "cidr": {
+   "seen": {
+    "objetivo": 1792468465972,
+    "intuicao": 1792468465972
+   }
+  }
+ },
+ "ui": {
+  "open": {}
+ }
+}
